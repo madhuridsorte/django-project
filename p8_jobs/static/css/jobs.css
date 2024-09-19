@@ -1,0 +1,49 @@
+
+.container {
+    margin-top: 150px;
+    text-align: center;
+   
+}
+
+.container .jumbotron {
+    background: gray;
+}
+
+.jumbotron a{
+    background: rgb(46, 45, 45);
+    color: white;
+    border: 2px solid black;
+}
+
+body {
+    background: url(https://images.unsplash.com/photo-1648362589317-065f81ea1100?q=80&w=2067&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+html {
+    height: 100%;
+}
+
+h1{
+    color:rgb(12, 12, 12);
+    text-align: center;
+    background-color: rgb(151, 149, 149);
+}
+
+img {
+    height: 200px;
+    width: 30%;
+    margin: 1.5%;
+    float: left;
+    border: 2px solid black;
+}
+
+
+
+p{
+    color: red;
+    text-align: center;
+    font-size: 30px;
+}
+
