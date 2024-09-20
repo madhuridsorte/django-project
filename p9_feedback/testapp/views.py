@@ -15,6 +15,8 @@ def feedback_view(request):
             print("************end******************")
             submitted = True
             name = form.cleaned_data['name']
+        else:
+            print("******validation failed*******")
         
     form = FeedbackForm()
     return render(request, 'testapp/feedback.html', {'form':form, 'submitted':submitted,'name':name})
