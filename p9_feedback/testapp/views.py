@@ -2,6 +2,7 @@ from django.shortcuts import render
 from testapp.forms import FeedbackForm
 
 def feedback_view(request):
+    form = FeedbackForm()
     submitted = False
     name = ''
     if request.method == 'POST':
@@ -18,5 +19,4 @@ def feedback_view(request):
         else:
             print("******validation failed*******")
         
-    form = FeedbackForm()
     return render(request, 'testapp/feedback.html', {'form':form, 'submitted':submitted,'name':name})
